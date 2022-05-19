@@ -1,3 +1,5 @@
+
+
 body {
 background-color: #F6F6F5
 }
@@ -14,6 +16,8 @@ a:hover {
 	color: #161616;
 }
 
+
+
 .number {
 	width: 151px;
 	height: 23px;
@@ -29,6 +33,11 @@ a:hover {
 	padding-top: 24px;
 	padding-right: 188px;
 	cursor: pointer;
+	transition: all 0.1s ease 0s;
+}
+
+.logo:hover {
+filter: brightness(50%);
 }
 
 .menu-wrapper {
@@ -349,14 +358,12 @@ padding-left: 135px;
 	margin-left: 260px;
 	background-color: #69766D;
 	border-radius: 2px;
-
 }
 
 .popup-send-button:hover {
 	cursor: pointer;
 	background-color: #69745d;
 }
-
 
 .popup-send-button--text {
 	display: block;
@@ -368,3 +375,160 @@ padding-left: 135px;
 	color: #F6F6F5;
 	margin: 18px 41px;
 }
+
+.burger {
+	display: none;
+}
+
+
+
+@media screen and (min-width: 1024px) and (max-width:1300px) {
+
+.logo {
+	padding-right: 70px
+}
+
+.menu:last-child{
+	padding-left: 10px;
+}
+
+.menu {
+	padding-right: 28px;
+}
+
+.fivesteps-image {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.fivesteps-text-item--description {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.fivesteps-text-item--title {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.main-section-title {
+	font-size: 32px;
+}
+
+.main-section-description {
+	font-size: 18px;
+}
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+
+.menu:not(.menu-number) {
+	display: none;
+}
+
+.menu-wrapper {
+padding: 0;
+}
+
+.burger {
+	display: unset;
+	padding: 0;
+	margin-top: 56px;
+	margin-left: 45px;
+	margin-right: 238px;
+}
+
+.logo {
+	padding: 0;
+	margin-top: 24px;
+	margin-right: 95px;
+}
+
+.number {
+	padding: 0;
+}
+
+.menu:last-child{
+	padding-left: 0px;
+
+}
+
+.menu-number {
+	margin-top: 55px;
+	padding: 0;
+}
+
+
+.main {
+	position: relative;
+	
+	padding: 0;
+}
+.main-section-image {
+	z-index: 1;
+	position: absolute;
+	display: block;
+	margin-top: 40px;
+	margin-left: -27px;
+	width: 253px;
+	height: 160px;
+	padding: 0 0px 0 0 ;
+}
+
+.main-section-title {
+	display: block;
+	z-index: 2;
+	margin-left: 50px;
+	margin-top: 115px;
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 47px;
+	color: #161616;
+	padding: 0;
+}
+
+.main-section-description {
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	margin-left: 90px;
+	margin-top: 16px;
+	padding: 0;
+	content: Каждый день мы создаем новую композицию <br> из свежих, сезонных цветов;
+}
+
+.main-section-button {
+	width: 210px;
+	height: 59px;
+	background-color: #69766D;
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 56px;
+	color: #F6F6F5;
+	text-align: center;
+	margin-left: 182px;
+	margin-top: 32px;
+	
+}
+
+.main-photo {
+	display: none;
+}
+
+.main-links {
+	display: none;
+}
+
+}
+
