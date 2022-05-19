@@ -224,6 +224,7 @@ padding-left: 135px;
 }
 
 .popup {
+	visibility: ;
 	display: flex;
 	position: absolute;
 	width: 746px;
@@ -232,6 +233,7 @@ padding-left: 135px;
 	margin-left: 76px;
 	background-color: #F6F6F5;
 	z-index: 6;
+	border-radius: 2px;
 }
 
 .close-button-wrapper {
@@ -242,7 +244,7 @@ padding-left: 135px;
 }
 
 .close-button:hover {
-	filter: brightness(1.0);
+	filter: drop-shadow(16px 16px 20px #161616) invert(100%);
 	cursor: pointer;
 }
 
@@ -255,4 +257,113 @@ padding-left: 135px;
 	background-color: #111;
 	opacity: 0.5;
 	z-index: 5;
+}
+
+.popup-logo-wrapper {
+	position: absolute;
+	margin-top: 39px;
+	margin-left: 176px;
+}
+
+
+.popup-title {
+	display: block;
+	position: absolute;
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 47px;
+	color: #161616;
+	margin-top: 64px;
+	margin-left: 218px;
+
+
+}
+
+.form-description--name {
+	position: absolute;
+	margin-top: 159px;
+	margin-left: 113px ;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.form-description--number {
+	position: absolute;
+	margin-top: 264px;
+	margin-left: 113px;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.input {
+	border: 2px solid #D8BFA9;
+ 	box-shadow: none;
+}
+
+.input-name {
+	position: absolute;
+	margin-top: 192px;
+	margin-left: 113px;
+	width: 521px;
+	height: 40px;
+}
+
+.input-number {
+	position: absolute;
+	margin-top: 297px;
+	margin-left: 113px;
+	width: 521px;
+	height: 40px;
+}
+
+
+
+.form-description--gray {
+	position: absolute;
+	margin-top: 347px;
+	margin-left: 113px;
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #69766D;
+}
+
+.popup-send-button {
+	
+	align-items: center;
+	position: absolute;
+	width: 227px;
+	height: 59px;
+	margin-top: 395px;
+	margin-left: 260px;
+	background-color: #69766D;
+	border-radius: 2px;
+
+}
+
+.popup-send-button:hover {
+	cursor: pointer;
+	background-color: #69745d;
+}
+
+
+.popup-send-button--text {
+	display: block;
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 20px;
+	line-height: 22px;
+	color: #F6F6F5;
+	margin: 18px 41px;
 }

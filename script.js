@@ -9,6 +9,8 @@ const pinButton = document.getElementById('pin');
 const youtubeButton = document.getElementById('youtube');
 const facebookButton = document.getElementById('facebook');
 
+const closeButton = document.getElementById('close-button'); 
+
 buketButton.addEventListener("click", ()=> {
 	window.location.href = '/buket';
 }
@@ -43,6 +45,11 @@ facebookButton.addEventListener("click", ()=> {
 )
 
 popupButton.addEventListener("click", ()=> {
-	window.location.href = 'homepage-url';
+	
+}
+)
+
+closeButton.addEventListener("click", ()=> {
+	
 }
 )
