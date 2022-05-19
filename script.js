@@ -78,10 +78,7 @@ popupBright.addEventListener("click", ()=> {
 
 popupSendButton.addEventListener('click', ()=> {
 
-	if (formName.value == "") {
-		formName.style.border = "2px solid red"
-	}
-	else if (formNumber.value == "") {
+if (formNumber.value == "") {
 		formNumber.style.border = "2px solid red";
 	}
 	else {
