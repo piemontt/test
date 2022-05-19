@@ -1,3 +1,4 @@
+const logo = document.querySelector(".logo");
 const buketButton = document.querySelector(".menu-buket");
 const otzyvButton = document.querySelector(".menu-otzyv");
 const dostavkaButton = document.querySelector(".menu-dostavka");
@@ -10,6 +11,14 @@ const youtubeButton = document.getElementById('youtube');
 const facebookButton = document.getElementById('facebook');
 
 const closeButton = document.getElementById('close-button'); 
+
+const popup = document.querySelector(".popup");
+const popupBright = document.querySelector(".popup-brightness");
+
+const formName = document.querySelector('.input-name');
+const formNumber = document.querySelector('.input-number');
+
+const popupSendButton = document.querySelector('.popup-send-button')
 
 buketButton.addEventListener("click", ()=> {
 	window.location.href = '/buket';
@@ -25,6 +34,10 @@ dostavkaButton.addEventListener("click", ()=> {
 )
 kontaktyButton.addEventListener("click", ()=> {
 	window.location.href = '/kontakty';
+}
+)
+logo.addEventListener("click", ()=> {
+	window.location.href = 'index.html';
 }
 )
 twitterButton.addEventListener("click", ()=> {
@@ -45,11 +58,39 @@ facebookButton.addEventListener("click", ()=> {
 )
 
 popupButton.addEventListener("click", ()=> {
-	
+	popup.style.visibility = "visible";
+	popupBright.style.visibility = "visible";
+
 }
 )
 
 closeButton.addEventListener("click", ()=> {
-	
+	popup.style.visibility = "hidden";
+	popupBright.style.visibility = "hidden";
+}
+)
+
+popupBright.addEventListener("click", ()=> {
+	popup.style.visibility = "hidden";
+	popupBright.style.visibility = "hidden";
+}
+)
+
+popupSendButton.addEventListener('click', ()=> {
+
+	if (formName.value == "") {
+		formName.style.border = "2px solid red"
+	}
+	else if (formNumber.value == "") {
+		formNumber.style.border = "2px solid red";
+	}
+	else {
+
+		setTimeout(()=>{
+			popup.style.visibility = "hidden";
+			popupBright.style.visibility = "hidden";
+		}, 1000)
+	}
+
 }
 )

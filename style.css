@@ -113,7 +113,7 @@ padding-left: 135px;
 	color: #161616;
 }
 
-.main-section-description{
+.main-section-description {
 	display: block;
 	font-family: 'Lato', sans-serif;
 	font-style: normal;
@@ -224,7 +224,7 @@ padding-left: 135px;
 }
 
 .popup {
-	visibility: ;
+	visibility: hidden;
 	display: flex;
 	position: absolute;
 	width: 746px;
@@ -249,6 +249,7 @@ padding-left: 135px;
 }
 
 .popup-brightness {
+	visibility: hidden;
 	position: absolute;
 	top: 0;
 	left: 0;
