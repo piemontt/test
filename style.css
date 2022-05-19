@@ -1,0 +1,224 @@
+body {
+background-color: #F6F6F5
+}
+
+img {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #161616;
+}
+
+.number {
+	width: 151px;
+	height: 23px;
+	color: #B8926B;
+}
+
+.col-md-auto {
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	padding-top: 24px;
+	padding-right: 188px;
+	cursor: pointer;
+}
+
+.menu-wrapper {
+padding-left: 135px;
+}
+
+.menu {
+	padding-top: 52px;
+	padding-right: 48px;
+	margin: 0;
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 22px;
+	color: #161616;
+	transition: text-decoration 0s ease 0s;
+	cursor: pointer;
+}
+
+.menu:last-child{
+	padding-left: calc(119px - 48px);
+
+}
+
+.menu:hover:not(.menu-number) {
+
+	text-decoration: overline #B8926B;	
+}
+
+
+
+.menu-buket{
+
+}
+
+
+.menu-otzyv{
+
+}
+
+
+.menu-dostavka{
+
+}
+
+
+.menu-kontakty{
+
+}
+
+.call-img {
+	padding-right: 16px;
+}
+
+.main {
+
+}
+
+.main-section {
+
+}
+
+.main-section-image {
+	z-index: 1;
+	position: absolute;
+	display: block;
+	padding-top: 34px;
+}
+
+
+.main-section-title {
+	display: block;
+	z-index: 2;
+	padding-left: 91px;
+	margin-top: 121px;
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 59px;
+	line-height: 66px;
+	color: #161616;
+}
+
+.main-section-description{
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 34px;
+	padding-left: 91px;
+	padding-top: 31px;
+}
+
+.main-section-button {
+	width: 210px;
+	height: 59px;
+	background-color: #69766D;
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 56px;
+	color: #F6F6F5;
+	text-align: center;
+	margin-left: 91px;
+	margin-top: 64px;
+	transition: 0.2s ease-out;
+}
+
+.main-section-button:hover {
+	cursor: pointer;
+	background-color: #69745d;
+}
+
+.main-photo {
+	margin-left: 44px;
+}
+
+
+.main-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-left: 37px;
+}
+
+.main-links--item {
+	margin-top: 20px;
+	opacity: 0.5;
+}
+
+.main-links--item:hover {
+	opacity: 1;
+	cursor: pointer;
+	filter: brightness(50%);
+}
+
+.subtitle {
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 45px;
+	color: #161616;
+	display: block;
+	margin-top: 90px;
+	margin-right: 65px;
+}
+
+.fivesteps-images {
+	margin-top: 64px;
+}
+
+.fivesteps-image {
+	margin: 23px 13px 0px 10px;
+}
+
+.fivesteps-line{
+	margin-top: 75px;
+}
+
+.fivesteps-text {
+	padding-top: 58px;
+}
+
+.fivesteps-text-item {
+	
+}
+
+.fivesteps-text-item--title {
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 23px;
+	line-height: 20px;
+	color: #161616;
+	margin: 0 75px 0 70px;
+}
+
+.fivesteps-text-item--description {
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+	color: #161616;
+	margin-top: 24px;
+	margin-left: 70px;
+	margin-bottom: 100px;
+}
